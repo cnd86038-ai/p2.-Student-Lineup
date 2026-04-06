@@ -28,4 +28,20 @@ int main()
 	firstStudent = name;
 	LastStudent = name;
 	count = 1;
+
+	//Read the rest of the names from the file
+	while (inputFile >> name)
+	{
+		count++;
+		//Update the first student if the current name is alphabetically smaller
+		if (name < firstStudent)
+		{
+			firstStudent = name;
+		}
+		//Update the last student if the current name is alphabetically larger
+		if (name > LastStudent)
+		{
+			LastStudent = name;
+		}
+	}
 }
