@@ -20,4 +20,12 @@ int main()
 		cout << "Error opening file!" << endl;
 		return 1; // Exit with an error code
 	}
+
+	//Read the first name from the file
+	inputFile >> name;
+
+	//Initialize the first student and last student (first names)
+	firstStudent = name;
+	LastStudent = name;
+	count = 1;
 }
