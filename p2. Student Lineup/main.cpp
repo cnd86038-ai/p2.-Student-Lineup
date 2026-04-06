@@ -44,4 +44,13 @@ int main()
 			LastStudent = name;
 		}
 	}
+	//Display the results
+	cout << "Total number of students: " << count << endl;
+	cout << "First student in line: " << firstStudent << endl;
+	cout << "Last student in line: " << LastStudent << endl;
+
+	//Close the file
+	inputFile.close();
+
+	return 0; // Exit with success
 }
