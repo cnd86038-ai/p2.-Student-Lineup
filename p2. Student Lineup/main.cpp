@@ -11,9 +11,6 @@ int main()
 	string LastStudent;
 	int count = 0;
 
-	//Open the file
-	inputFile.open("LineUp.txt");
-
 	//Check if the file opened successfully
 	if (!inputFile)
 	{
