@@ -5,14 +5,14 @@ using namespace std;
 
 int main()
 {
-	ifstream inputFile("lineup.txt");
+	ifstream inputFile("LineUp.txt");
 	string name;
 	string firstStudent;
 	string LastStudent;
 	int count = 0;
 
 	//Open the file
-	inputFile.open("lineup.txt");
+	inputFile.open("LineUp.txt");
 
 	//Check if the file opened successfully
 	if (!inputFile)
